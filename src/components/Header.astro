@@ -1,0 +1,30 @@
+---
+import LinkButton from "../components/LinkButton.astro";
+---
+
+<nav>
+  <ul>
+    <li>
+      <LinkButton
+        variant="menu"
+        size="medium"
+        linkTo="/index.html"
+        text="Forsiden"
+      />
+    </li>
+    <li>
+      <LinkButton variant="menu" size="medium" linkTo="/about" text="Om" />
+    </li>
+  </ul>
+</nav>
+
+<style>
+  ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+  }
+  nav {
+    margin-bottom: 2rem;
+  }
+</style>
