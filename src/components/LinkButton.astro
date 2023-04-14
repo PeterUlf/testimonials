@@ -17,10 +17,27 @@ const { variant, size, linkTo, text } = Astro.props;
     color: green;
   }
 
+  .footer {
+    background-color: rgb(140, 149, 176);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  .footer:hover {
+    background-color: white;
+    color: rgb(140, 149, 176);
+  }
   .medium {
     font-size: 1rem;
     padding: 0.3rem;
     width: 100px;
+
+    border-radius: 10px;
+  }
+  .large {
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    width: 200px;
 
     border-radius: 10px;
   }
